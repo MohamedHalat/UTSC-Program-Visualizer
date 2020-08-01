@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This Site is incomplete -->
+    <title>Mohamed Halat</title>
+    <!-- Meta -->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Mohamed Halat - UTSC | Iseehear">
+    <meta name="author" content="Mohamed Halat">
+
+    <!-- Style Sheets -->
+    <link rel="icon" type="image/svg" href="images/icon.svg">
+    <link rel="stylesheet" href="style/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <header style="position:fixed; width: 100%; background-color: white;">
+    <!-- Nav -->
+        <nav>
+            <div class="headline" style="display: inline-flex;">
+                <div style="margin:auto 10 auto 50">
+                    <span class="header">Mohamed Halat</span>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#code">Code</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <footer class="nav-footer" style="height:2px;width:100%; background-color: #fcb934; position: fixed;">
+        </footer>
+    </header>
+        <!-- Main Body -->
+    <main>
+        <section id="home"
+            style="background:linear-gradient(90deg, #4B6CB7 0%, #182848 100%);overflow-y: hidden; height: 40%;">
+            <div style="padding: 10%; text-align: center;">
+                <div style="display: flex; text-align: center; flex-direction: column;">
+                    <div style="margin: 0 auto;">
+                        <div class="typewriter">
+                            <h1>Welcome! I'm Mohamed Halat</h1>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="text-emphasis">Currently under construction! 
+                    <a class="text-emphasis" target="_blank" rel="noreferrer" href="https://github.com/MohamedHalat/Personal-Site/projects/1">View Project</a>
+                </h3>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <!-- Head -->
+            <div class="margin-center" style="padding: 4%;">
+                <div>
+                    <div class="headline margin-center" style="width: 40%;">
+                        <div>
+                            <h2 class="header underline">About UTSC-API</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Body -->
+                <div class="flex-container margin-center" style="width: 60%; max-width: 1800px;">
+                    <!-- Text Body -->
+                    <div class="margin-center text-center">
+                        <span>
+                            <p>
+                                Hi! I'm Mohamed Halat, a student who likes to code.
+                            </p>
+                            <p>
+                                This API and website is still in the process of being created
+                            </p>
+                            <p>
+                                Basically, it's supposed to help show program courses and requirements
+                            </p>
+                            <p>
+                                Try picking a program:
+                                <form>
+                                    <select name="programs" id="programs">
+                                    </select>
+                                    <button type="submit" id="submit">Submit</button>
+                                </form>
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses -->
+        <section id="code" style="background-color: #f5f5f5; padding: 30px 0px 0px 0px; height: auto !important;">
+            <div style="width: 80%; margin:0 auto;">
+                <div style="padding: 5%;">
+                    <div class="headline" style="line-height:50px;">
+                        <div
+                            style="margin:0 auto; width:30%;border-color: #fcb934; border-width: 0px 0px 1px 0px; border-style: solid;">
+                            <h2 class="header">Courses</h2>
+                        </div>
+                    </div>
+
+                    <div style="display:flex; justify-content: space-evenly;">
+                        <div style="padding:4%; text-align: center; margin:0 auto;">
+                            <span>
+                                Here are the Program courses
+                            </span>
+
+                            <div class="flex-container" style="padding-top:60px;margin: 0 -100px;" id="courses-cards">
+                                <!-- TicTacToe -->
+                                <section class="card" id="course-card">
+                                    <div class="card-body" id="course-body">
+                                        <h3 class="card-head" id="course-head">Course</h3>
+                                        <div class="course-text">
+                                            <span>
+                                                <p>
+                                                    Course Description
+                                                </p>
+                                            </span>
+                                        </div>
+                                        <div class="course-tags">
+                                            <ul class="tags">
+                                                <p>Requirements</p>
+                                                <li><span>1</span></li>
+                                                <li><span>2</span></li>
+                                                <li><span>3</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                        <div class="card-footer-content">
+                                            <p>
+                                                <a class="link-out" href="https://ahmedhalat.github.io/2DTicTacToe/" target="_blank" rel="noreferrer" title="GitHub Pages">
+                                                    Live
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="link-out" href="https://github.com/AhmedHalat/3DTicTacToe" target="_blank" rel="noreferrer" title="GitHub">
+                                                    Code
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </footer>
+                                </section>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div style="display: none;"> <textarea name="output" id="output" cols="130" rows="10"></textarea></div>
+        <section id="contact" style="background-color: #6f6f6f">
+            <div style="width:80%; margin:0 auto;">
+                <div style="padding: 5%;">
+                    <div>
+                        <div class="headline" style="line-height:50px;">
+                            <div style="text-align:initial; padding: 0 4%;">
+                                <h2 class="header" style=" border-color: #fcb934; border-width: 0px 0px 1px
+                                0px; border-style: solid; color: white;">Contact Me</h2>
+                            </div>
+                        </div>
+                        <div style="padding: 2%;">
+                            <div style="margin: 0 auto 15px; color: white;">
+                                <span>
+                                    <p>
+                                        Thanks for stopping by! If you have any questions, comments or would just like to contact me, you can reach me from the link below.
+                                    </p>
+                                </span>
+                            </div>
+                            <div style="color:white;">
+                                <span>
+                                    email:
+                                    <a href="mailto:dev@mohamedhalat.com"> dev@MohamedHalat.com</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
